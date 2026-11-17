@@ -1,0 +1,36 @@
+PLAZA DUTY - asset credits and licences (raw source files in this folder)
+
+Characters
+- Microsoft Rocketbox avatars (MIT licence, LICENSE.md next to each FBX): Security_Male_01 (the guard), Male_Adult_18, Male_Adult_17,
+  Male_Adult_04, Male_Adult_10, Female_Adult_12, Female_Adult_17 (runners), Female_Adult_05, Female_Adult_14, Male_Adult_02, Male_Adult_12, Female_Adult_02, Female_Adult_07, Female_Adult_09, Male_Adult_06, Male_Adult_08, Male_Adult_14 (cafe diners, round 3)
+  (passers-by and bench sitters), Police_Male_02 (source of the shared skeleton). The guard's hi-vis vest is our edit of the
+  Security_Male_01 body texture (Textures/Generated/PlazaDuty/T_PD_GuardBody_HiVis.png, MIT like its source).
+  https://github.com/microsoft/Microsoft-Rocketbox  - textures converted from .tga to 1K .png.
+- Quaternius Universal Animation Library [Standard] (CC0 1.0), retargeted onto the Rocketbox skeleton.
+  https://quaternius.com/packs/universalanimationlibrary.html
+
+Environment (CC0 1.0)
+- Poly Haven (https://polyhaven.com/license): textures granite_tile, granite_tile_03, concrete_pavement, painted_concrete_02,
+  brushed_concrete, concrete_tile_facade, asphalt_02, brown_mud (Rob Tuytel; planter-bed soil), modular_street_seating (timber diffuse only); models metal_trash_can,
+  street_lamp_01, street_lamp_02, planter_pot_clay, modular_urban_apartments_facade, jacaranda_tree, shrub_02, shrub_04,
+  wild_rooibos_bush, periwinkle_plant, weed_plant_02, potted_plant_02, fire_hydrant, utility_box_01, utility_box_02, trashbag,
+  cardboard_box_01, outdoor_table_chair_set_01, covered_car, concrete_road_barrier_02, painted_wooden_bench, planter_box_01,
+  planter_box_03, wooden_picnic_table, WetFloorSign_01, potted_plant_01, potted_plant_04, pachira_aquatica_01, fern_02,
+  nettle_plant, grass_bermuda_01, CoffeeCart_01, standing_chalkboard_01, plastic_crate_02.
+- ambientCG (https://ambientcg.com/license): decals ChewingGum001, ChewingGum002, AsphaltDamage001, ManholeCover003
+  (Leaking002 / Leaking006 included as downloaded raw sources).
+
+Animation (MIT)
+- Microsoft Rocketbox animation library (https://github.com/microsoft/Microsoft-Rocketbox, Assets/Animations): idle, walk,
+  run, crouch, cheer, angry-idle, seated and look-around clips, used natively on the Rocketbox avatars.
+
+Fonts
+- Public Sans (SIL OFL 1.1; GSA modifications CC0), https://github.com/uswds/public-sans - menu and HUD (Fonts/PublicSans + LICENSE.md).
+
+Original work (CC0, made for this project)
+- Models/Generated/PlazaDuty (Tools/generate_meshes.py), Textures/Generated/PlazaDuty (Tools/generate_textures.py),
+  Audio/Generated/PlazaDuty (Tools/generate_audio.py renders the same presets the game synthesises at runtime;
+  Tools/generate_music.py: the music loops, stings and ambient one-shots; Tools/generate_ui_assets.py: menu motif and
+  menu sounds; the stencil, chalk-tally and petal textures).
+
+No Fab, Sketchfab, Megascans, Paragon, Epic sample/template content, Mixamo or marketplace packs are used.
